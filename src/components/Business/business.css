@@ -1,0 +1,12 @@
+.business__wedgit {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.business__part {
+  overflow: hidden;
+  border-radius: 4px;
+  display: block;
+}
+.business__p {
+  color: var(--gray-60);
+}

@@ -1,0 +1,32 @@
+.main__header {
+  /* height: 90px; */
+}
+.header__content {
+  padding-bottom: 20px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--gray-90);
+}
+.header__content .logo {
+  font-size: var(--ft__20);
+  font-weight: var(--ft__W__B);
+}
+.header__content .header__links {
+  column-gap: 30px;
+  font-size: var(--ft__16);
+  font-weight: var(--ft__W__R);
+}
+.header__link::after,
+.header__links .header__link {
+  transition: .3s ease;
+  color: var(--gray-60);
+  text-transform: uppercase;
+}
+.header__links .header__link:hover {
+  color: var(--main-color);
+  opacity: .8;
+}
+.header__links .header__link.active {
+  /* color: rgba(255,255,255,.75); */
+  color: var(--main-color);
+  opacity: 1;
+}

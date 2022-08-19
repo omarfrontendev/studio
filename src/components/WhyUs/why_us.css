@@ -1,0 +1,19 @@
+.why__us__content {
+  padding: 70px;
+  background-color: #12131a;
+  border-radius: 10px;
+}
+.why__us__content .section__title::after {
+  left: 0;
+  transform: translateX(0);
+}
+.why__us__p {
+  color: var(--main-color);
+  font-size: var(--ft__18);
+  font-weight: var(--ft__W__M);
+  margin-bottom: 20px;
+  line-height: 32px;
+}
+.why__us__section .section__subtitle {
+  font-weight: var(--ft__W__R);
+}

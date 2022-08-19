@@ -1,0 +1,33 @@
+.main__button {
+  color: var(--pure__white);
+  font-size: var(--ft__18);
+  background-color: transparent;
+  padding: 14px 30px;
+  font-weight: var(--ft__W__M);
+  min-width: 200px;
+  text-align: center;
+  transition: .3s ease;
+  border-radius: 50px;
+  border: 1px solid var(--main-color);
+  transition: .3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.main__button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: .4s ease-in-out;
+  /* border-radius: 50px; */
+  background-color: var(--main-color);
+}
+.main__button:hover::after {
+  left: 0;
+}
+.main__button:hover {
+  color: var(--dark__black);
+}
